@@ -4,38 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Figmaland</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+    <link href="https://fonts.cdnfonts.com/css/graphik" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <section class="hero">
-        <img src="img/main-img.jpg" alt="Main-bg">
-        <header class="header">
-            <nav class="header__menu _menu">
-                <ul class="menu__list">
-                    <li class="menu__item">Home</li>
-                    <li class="menu__item">Product</li>
-                    <li class="menu__item">Pricing</li>
-                    <li class="menu__item">About</li>
-                    <li class="menu__item">Contact</li>
-                </ul>
-            </nav>
-            <img src="img/logo.png" alt="Logo" class="header__logo">
-            <div class="header__social-links">
-                <a href="#" class="headder__social-link">
-                    <img src="img/icons/twitter.svg" alt="Twitter">
-                </a>
-                <a href="#" class="headder__social-link">
-                    <img src="img/icons/facebook.svg" alt="Facebook">
-                </a>
-                <a href="#" class="headder__social-link">
-                    <img src="img/icons/linkedin.svg" alt="Linkedin">
-                </a>
+        <div class="container">
+            <header class="header">
+                <img src="img/logo.svg" alt="Logo" class="header__logo">
+                <nav class="header__menu _menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Product</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Pricing</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">About</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header__social-links">
+                    <a href="#" class="headder__social-link">
+                        <img src="img/icons/twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="#" class="headder__social-link">
+                        <img src="img/icons/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="#" class="headder__social-link">
+                        <img src="img/icons/linkedin.svg" alt="Linkedin">
+                    </a>
+                </div>
+            </header>
+            <div class="hero__wrapper">
+                <h1 class="hero__title">The best products start with Figma</h1>
+                <div class="hero__subtitle">Most calendars are designed for teams. Slate is designed for freelancers
+                </div>
+                <button class="hero__btn btn">Try For Free</button>
             </div>
-        </header>
-        <h1 class="hero__title">The best products start with Figma</h1>
-        <div class="hero__subtitle">Most calendars are designed for teams. Slate is designed for freelancers</div>
-        <button class="hero__btn">Try For Free</button>
     </section>
+    </div>
 </body>
 </html>
