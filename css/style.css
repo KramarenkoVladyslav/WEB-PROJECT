@@ -60,12 +60,26 @@ img {
 .header{
 	display: flex;
 	justify-content: space-around;
-	align-items: flex-end;
+	align-items: center;
+}
+
+.header__logo{
+	padding-bottom: 10px;
 }
 
 .header__social-links{
 	display: flex;
-	gap: 25px;
+}
+
+.header__social-link{
+	display: block;
+	width: 33px;
+	height: 27px;
+	margin-right: 25px;
+}
+
+.header__social-link:last-child{
+	margin: 0;
 }
 
 .menu__list{
@@ -104,6 +118,11 @@ img {
 	display: block;
 	margin: 0 auto;
 	margin-top: 80px;
+	transition: 0.3s ease;
+}
+
+.hero__btn:hover{
+	background-color: #027cee;
 }
 
 .menu__link {
