@@ -52,7 +52,6 @@ img {
 
 .hero {
 	background: url(../img/main-img.jpg) center center/cover no-repeat;
-	height: 100vh;
 	padding: 30px 0 340px 0;
 }
 
